@@ -26,7 +26,7 @@ const Header = () => {
     <div
       className={`${
         isActive ? "bg-white py-4 shadow-md" : "bg-none py-6"
-      } fixed w-full z-10 transition-all`}
+      } fixed w-full z-10 transition-all px-0 lg:px-10`}
     >
       <div className="flex container mx-auto items-center justify-between h-full">
         <Link to={"/"}>
